@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2-Form</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+        <label for="username"> Username : </label>
+        <input type="text" placeholder="enter username" id="username" name="user" />
+        </div>
+        <div>
+        <label for="password "> Password : </label>
+        <input type="password" placeholder="enter password" id="password" name="pass" />
+        </div>
+        <div>
+            <label for="age"> Enter Age : </label>
+            <input type="number" placeholder="enter number" id="age">
+        </div>
+
+
+        <button type="submit"> Login</button>
+ 
+    </form>
+    <hr>
+    <hr>
+    <form action="/server">
+        Name:
+            <input type="text" placeholder="enter your name"/>
+            <br>
+        Sex:
+            <input type="radio" name="gender" id="Male" value="Male" />
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female" />
+            <label for="Female">Female</label>
+            <br>
+        Country:
+            <select name=" Country" id="Country">
+            <option>Select your option</option>
+            <option value="Us">USA</option>
+            <option value="ind">India</option>
+            <option value="eng">England</option>
+            <option value="Aus">Australia</option>
+            <option value="Ussr">Russia</option>
+            <br>
+            <br>
+            <input type="checkbox" id="agree" name="agree"/>
+            <label for="agree"> Subscribe?</label>
+            <br>
+            <button type="submit">Submit</button>
+
+    </form>
+    <hr>
+    <hr> Feedback Form</hr>
+    <form action="/server">
+        Name:
+        <input type="text" placeholder="write your name"/>
+        <br>
+        Email:
+        <input type="email" placeholder=" write your email"/>
+        <br>
+        Message:<br>
+        <textarea name="message" placeholder="write your message" cols="30"
+        rows="4"></textarea>
+        <br>
+        Rate us our of 5:
+        <br>
+        <input type="radio" name="numbere" id="1" value="1" />
+        <label for="1">1</label><br>
+        <input type="radio" name="numbere" id="2" value="2" />
+        <label for="2">2</label><br>
+        <input type="radio" name="numbere" id="3" value="3" />
+        <label for="3">3</label><br>
+        <input type="radio" name="numbere" id="4" value="4" />
+        <label for="4">4</label><br>
+        <input type="radio" name="numbere" id="5" value="5" />
+        <label for="5">5</label><br>
+        <br>
+        <br>
+        <button type="submit">Send your message!</button>
+
+        
+            
+    </form>
+    
+</body>
+</html>
